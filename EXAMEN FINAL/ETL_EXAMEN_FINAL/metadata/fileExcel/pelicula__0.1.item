@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_O_L8AXmoEe27_-akDkUpHA" name="pelicula_" dataPackage="_O_L8AnmoEe27_-akDkUpHA" Server="Localhost 127.0.0.1" FilePath="C:/Users/St®ix/Downloads/prueba.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="pelicula" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="pelicula:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_O_L8AnmoEe27_-akDkUpHA" name="default" dataManager="_O_L8AXmoEe27_-akDkUpHA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_O_L8A3moEe27_-akDkUpHA" id="_GO5yIHmoEe27_-akDkUpHA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O_L8BHmoEe27_-akDkUpHA" label="id_peli" length="10" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O_L8BXmoEe27_-akDkUpHA" label="nombre_peli" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O_L8BnmoEe27_-akDkUpHA" label="genero" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

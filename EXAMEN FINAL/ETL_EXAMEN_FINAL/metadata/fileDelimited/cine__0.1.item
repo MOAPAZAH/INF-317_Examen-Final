@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_hxovkHnCEe2qp61OF_oX3A" name="cine_" dataPackage="_hxovkXnCEe2qp61OF_oX3A" Server="Localhost 127.0.0.1" FilePath="C:/Users/St®ix/Downloads/cine.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hxovkXnCEe2qp61OF_oX3A" name="default" dataManager="_hxovkHnCEe2qp61OF_oX3A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hxovknnCEe2qp61OF_oX3A" id="_S7HAMHnCEe2qp61OF_oX3A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hxovk3nCEe2qp61OF_oX3A" label="id_cine" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hxovlHnCEe2qp61OF_oX3A" label="direccion" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

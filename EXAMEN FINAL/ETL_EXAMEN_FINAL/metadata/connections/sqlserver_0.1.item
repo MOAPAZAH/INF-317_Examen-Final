@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_ENw5EHlhEe2Nwa3UvOHVVQ" name="sqlserver" id="_0-fSgHlgEe2Nwa3UvOHVVQ" label="sqlserver" dataPackage="__pjWIHmkEe27_-akDkUpHA" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://localhost:1433/examenfinal;" dbVersionString="JTDS" Port="1433" Username="moli" Password="enc:system.encryption.key.v1:tN2N8QmS9BULUF2oWSfOcTjq5yQHIdhYSb/whU8OLautgg==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="examenfinal" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_ENw5EXlhEe2Nwa3UvOHVVQ" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_EOG3UHlhEe2Nwa3UvOHVVQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_EOG3UXlhEe2Nwa3UvOHVVQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_EOG3UnlhEe2Nwa3UvOHVVQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_EOG3U3lhEe2Nwa3UvOHVVQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_EOG3VHlhEe2Nwa3UvOHVVQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_EOG3VXlhEe2Nwa3UvOHVVQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_EOG3VnlhEe2Nwa3UvOHVVQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_-t1s4HmFEe28N4799yzByg" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_-t1s4XmFEe28N4799yzByg" tag="DB ProductVersion" value="12.00.2000"/>
+    <taggedValue xmi:id="_-t1s4nmFEe28N4799yzByg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_ENw5EnlhEe2Nwa3UvOHVVQ" key="CONN_PARA_KEY_USERNAME" value="moli"/>
+    <parameters xmi:id="_HYmdYHlhEe2Nwa3UvOHVVQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="__pjWIHmkEe27_-akDkUpHA" name="examenfinal" dataManager="_ENw5EHlhEe2Nwa3UvOHVVQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWIXmkEe27_-akDkUpHA" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWInmkEe27_-akDkUpHA" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWI3mkEe27_-akDkUpHA" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWJHmkEe27_-akDkUpHA" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWJXmkEe27_-akDkUpHA" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWJnmkEe27_-akDkUpHA" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWJ3mkEe27_-akDkUpHA" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWKHmkEe27_-akDkUpHA" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWKXmkEe27_-akDkUpHA" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWKnmkEe27_-akDkUpHA" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWK3mkEe27_-akDkUpHA" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWLHmkEe27_-akDkUpHA" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="__pjWLXmkEe27_-akDkUpHA" name="sys"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

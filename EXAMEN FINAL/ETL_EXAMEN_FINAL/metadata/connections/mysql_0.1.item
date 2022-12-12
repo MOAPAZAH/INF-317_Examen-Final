@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_buCKQHkFEe2nwcFWL4xzbQ" name="mysql" id="_Q4vbsHkFEe2nwcFWL4xzbQ" label="mysql" dataPackage="_rRK10HmmEe27_-akDkUpHA" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/prueba?" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="" ServerName="localhost" DatasourceName="" FileFieldName="" SID="prueba" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_buCxUHkFEe2nwcFWL4xzbQ" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_buTQAHkFEe2nwcFWL4xzbQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_buW6YHkFEe2nwcFWL4xzbQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_buW6YXkFEe2nwcFWL4xzbQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_buW6YnkFEe2nwcFWL4xzbQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_buW6Y3kFEe2nwcFWL4xzbQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_buW6ZHkFEe2nwcFWL4xzbQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_buW6ZXkFEe2nwcFWL4xzbQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_bujHoHkFEe2nwcFWL4xzbQ" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_bujHoXkFEe2nwcFWL4xzbQ" tag="DB ProductVersion" value="8.0.31"/>
+    <taggedValue xmi:id="_bujHonkFEe2nwcFWL4xzbQ" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_buCxUXkFEe2nwcFWL4xzbQ" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_ws3sUHlgEe2Nwa3UvOHVVQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_rRK10HmmEe27_-akDkUpHA" name="prueba" dataManager="_buCKQHkFEe2nwcFWL4xzbQ"/>
+</xmi:XMI>
